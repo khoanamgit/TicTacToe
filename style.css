@@ -1,0 +1,64 @@
+*{
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+
+.main{
+    text-align: center;
+}
+
+.container{
+    background-color: #eee;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    
+  
+}
+
+.container li{
+    /* padding: 5px 5px; */
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    width: calc(300px / 3);
+    height: calc(300px/ 3);
+    cursor: pointer;
+    font-size: 45px;
+}
+
+.tutorial{
+    margin: 5px 0;
+}
+
+.status{
+    margin: 8px 0;
+    font-size: 16px;
+    color: red;
+}
+
+.restart{
+    margin: 10px 0;
+}
+
+.restart button{
+    font-size: 15px;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #69db7c;
+    border: none;
+    border-radius: 5px;
+}
+
